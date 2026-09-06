@@ -1,0 +1,6 @@
+.\app\apple-icon.png
+.\app\icon.png
+.\logo\main.png
+.\logo\without background.png
+.\public\logo\main.png
+.\public\logo\without background.png

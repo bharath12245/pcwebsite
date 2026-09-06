@@ -1,0 +1,172 @@
+[
+  {
+    "slug": "coorg-coffee-trails",
+    "name": "Coorg Coffee Trails Getaway",
+    "category": "holiday",
+    "duration_days": 3,
+    "mode": "coach",
+    "inclusions": [
+      "Hotel / Resort stay",
+      "Breakfast & dinner",
+      "Coffee plantation tour",
+      "Abbey Falls & Raja's Seat visits",
+      "Local sightseeing"
+    ],
+    "itinerary_summary": "Escape to the misty hills of Kodagu. Walk through fragrant coffee plantations, marvel at cascading waterfalls, and soak in breathtaking sunsets over Western Ghats.",
+    "hero_image": "/images/tours/holidays/coorg-coffee-trails.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Coorg Coffee Trails Getaway package."
+  },
+  {
+    "slug": "goa-beach-holiday",
+    "name": "Goa Beach Holiday Special",
+    "category": "holiday",
+    "duration_days": 4,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Beach resort stay",
+      "Daily breakfast",
+      "North & South Goa sightseeing",
+      "Mandovi river cruise"
+    ],
+    "itinerary_summary": "Unwind on golden sand beaches, explore Portuguese heritage architecture in Old Goa, sample local seafood, and enjoy a sunset cruise on the Mandovi river.",
+    "hero_image": "/images/tours/holidays/goa-beach-holiday.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Goa Beach Holiday Special package."
+  },
+  {
+    "slug": "munnar-thekkady-hill-escape",
+    "name": "Munnar–Thekkady Hill Escape",
+    "category": "holiday",
+    "duration_days": 5,
+    "mode": "coach",
+    "inclusions": [
+      "Hill resort stay",
+      "Breakfast & dinner",
+      "Tea garden & museum visit",
+      "Periyar wildlife sanctuary boating",
+      "Spice plantation tour"
+    ],
+    "itinerary_summary": "Experience God's Own Country with sprawling tea gardens in Munnar and wild elephant watching by boat in Periyar National Park, Thekkady.",
+    "hero_image": "/images/tours/holidays/munnar-thekkady-hill-escape.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Munnar–Thekkady Hill Escape package."
+  },
+  {
+    "slug": "andaman-island-holiday",
+    "name": "Andaman Island Holiday",
+    "category": "holiday",
+    "duration_days": 5,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Beach resort stay",
+      "Daily breakfast",
+      "Havelock & Neil island ferry transfers",
+      "Cellular Jail light & sound show"
+    ],
+    "itinerary_summary": "Discover turquoise oceans, pristine white coral beaches at Radhanagar, historic Cellular Jail, and crystal clear snorkeling in Havelock Island.",
+    "hero_image": "/images/tours/holidays/andaman-island-holiday.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Andaman Island Holiday package."
+  },
+  {
+    "slug": "ooty-kodaikanal-nilgiris-tour",
+    "name": "Ooty–Kodaikanal Nilgiris Tour",
+    "category": "holiday",
+    "duration_days": 4,
+    "mode": "coach",
+    "inclusions": [
+      "Hotel stay",
+      "Breakfast & dinner",
+      "Nilgiri toy train ride (Ooty)",
+      "Kodaikanal lake boating",
+      "Botanical gardens & viewpoints"
+    ],
+    "itinerary_summary": "Journey through the 'Queen of Hill Stations' Ooty and the misty pine forests of Kodaikanal, featuring iconic toy train rides and tranquil lake boating.",
+    "hero_image": "/images/tours/holidays/ooty-kodaikanal-nilgiris-tour.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Ooty–Kodaikanal Nilgiris Tour package."
+  },
+  {
+    "slug": "kashmir-valley-holiday",
+    "name": "Kashmir Valley Holiday",
+    "category": "holiday",
+    "duration_days": 6,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights to Srinagar",
+      "Deluxe houseboat & hotel stay",
+      "Breakfast & dinner",
+      "Gulmarg Gondola ride",
+      "Shikara ride on Dal Lake"
+    ],
+    "itinerary_summary": "Immerse yourself in Paradise on Earth. Enjoy a luxurious houseboat stay on Dal Lake, meadow walks in Pahalgam, and snow peaks in Gulmarg.",
+    "hero_image": "/images/tours/holidays/kashmir-valley-holiday.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Kashmir Valley Holiday package."
+  },
+  {
+    "slug": "leh-ladakh-adventure-holiday",
+    "name": "Leh–Ladakh Adventure Holiday",
+    "category": "holiday",
+    "duration_days": 7,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights to Leh",
+      "Hotel & luxury camp stay",
+      "All meals",
+      "Pangong Lake & Nubra Valley tour",
+      "Khardung La pass visit & oxygen kit"
+    ],
+    "itinerary_summary": "Cross Khardung La — one of the world's highest motorable passes — ride double-humped camels in Nubra Valley, and marvel at the changing hues of Pangong Tso.",
+    "hero_image": "/images/tours/holidays/leh-ladakh-adventure-holiday.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Leh–Ladakh Adventure Holiday package."
+  },
+  {
+    "slug": "wayanad-nature-wildlife-retreat",
+    "name": "Wayanad Nature & Wildlife Retreat",
+    "category": "holiday",
+    "duration_days": 3,
+    "mode": "coach",
+    "inclusions": [
+      "Eco resort stay",
+      "Breakfast & dinner",
+      "Wildlife sanctuary safari",
+      "Edakkal caves exploration",
+      "Banasura Sagar dam visit"
+    ],
+    "itinerary_summary": "A tranquil nature retreat amidst evergreen rainforests, ancient cave petroglyphs, bamboo rafting at Kuruva Island, and wildlife safaris in Wayanad.",
+    "hero_image": "/images/tours/holidays/wayanad-nature-wildlife-retreat.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Wayanad Nature & Wildlife Retreat package."
+  },
+  {
+    "slug": "darjeeling-gangtok-himalayan-tour",
+    "name": "Darjeeling–Gangtok Himalayan Tour",
+    "category": "holiday",
+    "duration_days": 6,
+    "mode": "flight",
+    "inclusions": [
+      "Flights to Bagdogra",
+      "Hotel stay",
+      "Breakfast & dinner",
+      "Tiger Hill sunrise over Kanchenjunga",
+      "Tsomgo Lake & Baba Mandir tour"
+    ],
+    "itinerary_summary": "Witness sunrise illumination on Mount Kanchenjunga from Tiger Hill, sip world-famous Darjeeling tea, and explore glacial Tsomgo Lake in Sikkim.",
+    "hero_image": "/images/tours/holidays/darjeeling-gangtok-himalayan-tour.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Darjeeling–Gangtok Himalayan Tour package."
+  },
+  {
+    "slug": "rajasthan-heritage-holiday",
+    "name": "Rajasthan Heritage Holiday",
+    "category": "holiday",
+    "duration_days": 7,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Heritage hotel stay",
+      "Breakfast & dinner",
+      "Jaipur Amer Fort & Hawa Mahal",
+      "Udaipur City Palace & Lake Pichola"
+    ],
+    "itinerary_summary": "Travel like royalty across Jaipur, Jodhpur, and Udaipur. Tour majestic forts, opulent royal palaces, vibrant bazaars, and enjoy boat rides on Lake Pichola.",
+    "hero_image": "/images/tours/holidays/rajasthan-heritage-holiday.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Rajasthan Heritage Holiday package."
+  }
+]
