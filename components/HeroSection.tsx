@@ -7,7 +7,7 @@ import { Compass, Sparkles, Sun, ShieldCheck, HeartHandshake, PhoneCall, ArrowRi
 import { PRIMARY_WHATSAPP_LINK, getFeaturedTours } from "@/lib/tours";
 
 export default function HeroSection() {
-  const featuredTours = getFeaturedTours(5); // Show 5 featured packages
+  const featuredTours = getFeaturedTours(15); // Show 15 featured packages
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const touchStartX = useRef<number | null>(null);
@@ -40,21 +40,16 @@ export default function HeroSection() {
   return (
     <section className="relative bg-navy text-white overflow-hidden py-16 lg:py-24">
       {/* Dynamic Background Pattern & Gradient Overlay */}
-      <div className="absolute inset-0 opacity-20">
-        {featuredTours.map((tour, index) => (
-          <Image
-            key={tour.slug + '-bg'}
-            src={tour.hero_image}
-            alt={`${tour.name} Background`}
-            fill
-            className={`object-cover transition-opacity duration-1000 ease-in-out blur-sm ${
-              index === currentIndex ? "opacity-100" : "opacity-0"
-            }`}
-            sizes="100vw"
-            priority={index === 0}
-          />
-        ))}
-        <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/95 to-navy/80"></div>
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/hero-bg.jpg"
+          alt="Hero Background"
+          fill
+          className="object-cover object-center"
+          sizes="100vw"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
       {/* Decorative Glow Orb */}
@@ -161,8 +156,8 @@ export default function HeroSection() {
                         <div className="text-[10px] text-gray-300 uppercase mt-1 tracking-wider">Days</div>
                       </div>
                       <div className="bg-white/10 p-3 rounded-xl border border-white/10">
-                        <div className="font-bold text-magenta-light text-base capitalize">{tour.mode}</div>
-                        <div className="text-[10px] text-gray-300 uppercase mt-1 tracking-wider">Travel</div>
+                        <div className="font-bold text-magenta-light text-base">Premium</div>
+                        <div className="text-[10px] text-gray-300 uppercase mt-1 tracking-wider">Guided</div>
                       </div>
                       <div className="bg-white/10 p-3 rounded-xl border border-white/10">
                         <div className="font-bold text-white text-base">All-In</div>
