@@ -32,12 +32,12 @@ export default function ContactPage() {
       />
 
       {/* Header Banner */}
-      <section className="relative text-white py-24 lg:py-32 border-b-4 border-magenta overflow-hidden">
+      <section className="relative text-white py-24 lg:py-32 min-h-[85vh] flex flex-col justify-center overflow-hidden">
         {/* Background Image & Overlay */}
         <div className="absolute inset-0 z-0">
           <img src="/images/contact.jpg" alt="Contact Us" className="w-full h-full object-cover object-center" />
-          <div className="absolute inset-0 bg-navy/70 mix-blend-multiply" />
-          <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent" />
+          <div className="absolute inset-0 bg-black/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">

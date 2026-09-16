@@ -42,14 +42,15 @@ export default function HeroSection() {
       {/* Dynamic Background Pattern & Gradient Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-bg.jpg"
+          src="/images/hero-bg.png"
           alt="Hero Background"
           fill
           className="object-cover object-center"
           sizes="100vw"
           priority
         />
-        <div className="absolute inset-0 bg-black/50"></div>
+        {/* Soft neutral dark gradient instead of heavy blue transparency */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
       </div>
 
       {/* Decorative Glow Orb */}
