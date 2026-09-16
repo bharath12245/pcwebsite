@@ -1,10 +1,11 @@
 import pilgrimageData from "@/content/tours/pilgrimage.json";
 import holidaysData from "@/content/tours/holidays.json";
+import internationalData from "@/content/tours/international.json";
 
 export interface Tour {
   slug: string;
   name: string;
-  category: "pilgrimage" | "holiday";
+  category: "pilgrimage" | "holiday" | "international";
   duration_days: number;
   mode: "flight" | "train" | "coach" | "mixed";
   inclusions: string[];
@@ -23,6 +24,10 @@ export function getPilgrimageTours(): Tour[] {
 
 export function getHolidayPackages(): Tour[] {
   return holidaysData as Tour[];
+}
+
+export function getInternationalPackages(): Tour[] {
+  return internationalData as Tour[];
 }
 
 export function getTourBySlug(slug: string): Tour | undefined {
