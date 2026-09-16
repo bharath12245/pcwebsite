@@ -21,10 +21,12 @@ export default function TourCard({ tour, featured = false }: TourCardProps) {
     }
   };
 
-  const detailPath =
-    tour.category === "pilgrimage"
-      ? `/pilgrimage-tours/${tour.slug}`
-      : `/holiday-packages/${tour.slug}`;
+  let detailPath = `/holiday-packages/${tour.slug}`;
+  if (tour.category === "pilgrimage") {
+    detailPath = `/pilgrimage-tours/${tour.slug}`;
+  } else if (tour.category === "international") {
+    detailPath = `/international-packages/${tour.slug}`;
+  }
 
   const waLink = buildWhatsAppLink(tour.whatsapp_message);
 
@@ -34,7 +36,7 @@ export default function TourCard({ tour, featured = false }: TourCardProps) {
       <div className="relative h-52 w-full overflow-hidden bg-surface">
         <Image
           src={tour.hero_image}
-          alt={`${tour.category === "pilgrimage" ? "Pilgrimage Yatra" : "Holiday Package"} to ${tour.name}`}
+          alt={`${tour.category === "pilgrimage" ? "Pilgrimage Yatra" : tour.category === "international" ? "International Package" : "Holiday Package"} to ${tour.name}`}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -45,12 +47,14 @@ export default function TourCard({ tour, featured = false }: TourCardProps) {
         <div className="absolute top-3 left-3 right-3 flex justify-between items-center gap-2">
           <span
             className={`text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm ${
-              tour.category === "pilgrimage"
+              tour.category === "international"
+                ? "bg-amber-500 text-white"
+                : tour.category === "pilgrimage"
                 ? "bg-navy text-white"
                 : "bg-magenta text-white"
             }`}
           >
-            {tour.category === "pilgrimage" ? "Pilgrimage Yatra" : "Holiday Package"}
+            {tour.category === "international" ? "International Package" : tour.category === "pilgrimage" ? "Pilgrimage Yatra" : "Holiday Package"}
           </span>
 
           <span className="bg-white/95 text-navy backdrop-blur-md text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-sm">
@@ -62,8 +66,8 @@ export default function TourCard({ tour, featured = false }: TourCardProps) {
         {/* Travel Mode Overlay */}
         <div className="absolute bottom-3 left-3 flex items-center gap-2 text-white">
           <span className="bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-md text-xs font-semibold flex items-center gap-1.5 border border-white/20">
-            {getModeIcon(tour.mode)}
-            <span className="capitalize">{tour.mode} Travel</span>
+            <Shield className="w-3.5 h-3.5" />
+            <span className="capitalize">Guided Package</span>
           </span>
         </div>
       </div>

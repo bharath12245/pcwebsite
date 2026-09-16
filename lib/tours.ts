@@ -1,10 +1,11 @@
 import pilgrimageData from "@/content/tours/pilgrimage.json";
 import holidaysData from "@/content/tours/holidays.json";
+import internationalData from "@/content/tours/international.json";
 
 export interface Tour {
   slug: string;
   name: string;
-  category: "pilgrimage" | "holiday";
+  category: "pilgrimage" | "holiday" | "international";
   duration_days: number;
   mode: "flight" | "train" | "coach" | "mixed";
   inclusions: string[];
@@ -14,7 +15,7 @@ export interface Tour {
 }
 
 export function getAllTours(): Tour[] {
-  return [...(pilgrimageData as Tour[]), ...(holidaysData as Tour[])];
+  return [...(pilgrimageData as Tour[]), ...(holidaysData as Tour[]), ...(internationalData as Tour[])];
 }
 
 export function getPilgrimageTours(): Tour[] {
@@ -25,14 +26,20 @@ export function getHolidayPackages(): Tour[] {
   return holidaysData as Tour[];
 }
 
+export function getInternationalPackages(): Tour[] {
+  return internationalData as Tour[];
+}
+
 export function getTourBySlug(slug: string): Tour | undefined {
   return getAllTours().find((t) => t.slug === slug);
 }
 
 export function getFeaturedTours(limit: number = 6): Tour[] {
-  const pilgrimages = getPilgrimageTours().slice(0, 4);
-  const holidays = getHolidayPackages().slice(0, 2);
-  return [...pilgrimages, ...holidays].slice(0, limit);
+  const limitPilgrimage = Math.ceil(limit * 0.7);
+  const limitHoliday = limit - limitPilgrimage;
+  const pilgrimages = getPilgrimageTours().slice(0, limitPilgrimage);
+  const holidays = getHolidayPackages().slice(0, limitHoliday);
+  return [...pilgrimages, ...holidays];
 }
 
 export function buildWhatsAppLink(message: string): string {
@@ -44,3 +51,5 @@ export const PRIMARY_WHATSAPP_LINK = "https://wa.me/917204180555?text=Hi%2C%20I%
 export const PRIMARY_PHONE = "+91 72041 80555";
 export const SECONDARY_PHONE = "+91 82201 00261";
 export const OFFICE_ADDRESS = "2nd Floor, Grand Majestic Mall, No. 2/17, Opp. Gubbi Veeranna Rangamandira, Gandhi Nagar, Bengaluru, Karnataka 560009";
+
+

@@ -37,7 +37,7 @@ export default function Header() {
               </span>
               <span className="text-magenta-light/50 font-bold">•</span>
               <span className="flex items-center gap-1 text-gray-300">
-                Founded in 2025 by Prhallada C, backed by 20+ years of personal industry experience
+                Founded in 2025 by Prhallada C, backed by 17 years in IRCTC of personal industry experience
               </span>
               <span className="text-magenta-light/50 font-bold">•</span>
               <a
@@ -96,6 +96,12 @@ export default function Header() {
               className="text-navy font-semibold text-sm hover:text-magenta transition-colors py-2 border-b-2 border-transparent hover:border-magenta"
             >
               Holiday Packages
+            </Link>
+            <Link
+              href="/international-packages"
+              className="text-navy font-semibold text-sm hover:text-magenta transition-colors py-2 border-b-2 border-transparent hover:border-magenta"
+            >
+              International Packages
             </Link>
             <Link
               href="/about"
@@ -165,6 +171,14 @@ export default function Header() {
               className="flex items-center justify-between p-3 rounded-xl font-semibold text-navy hover:bg-surface hover:text-magenta transition-colors"
             >
               <span>Holiday Packages</span>
+              <ChevronRight className="w-4 h-4 text-gray-400" />
+            </Link>
+            <Link
+              href="/international-packages"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-between p-3 rounded-xl font-semibold text-navy hover:bg-surface hover:text-magenta transition-colors"
+            >
+              <span>International Packages</span>
               <ChevronRight className="w-4 h-4 text-gray-400" />
             </Link>
             <Link
