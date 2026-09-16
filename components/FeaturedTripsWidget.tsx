@@ -51,7 +51,7 @@ export default function FeaturedTripsWidget() {
             href="/pilgrimage-tours"
             className="inline-flex items-center gap-2 text-navy hover:text-magenta font-semibold text-sm transition-colors group"
           >
-            <span>Explore all 30 sample packages across India</span>
+            <span>Explore more packages</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>

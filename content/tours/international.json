@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "dubai-tour-package",
+    "name": "Dubai Tour Package",
+    "category": "international",
+    "duration_days": 5,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Hotel stay",
+      "Daily breakfast",
+      "Burj Khalifa views",
+      "Desert Safari with BBQ",
+      "Dhow Cruise",
+      "Luxury shopping tour"
+    ],
+    "itinerary_summary": "Experience the opulence of the UAE with breathtaking Burj Khalifa views, thrilling Desert Safari dunes, relaxing Dhow Cruise, and world-class luxury shopping.",
+    "hero_image": "/images/tours/international/dubai-skyline.webp",
+    "whatsapp_message": "Hi, I'd like to book the Dubai Tour Package."
+  },
+  {
+    "slug": "thailand-tour-package",
+    "name": "Thailand Tour Package",
+    "category": "international",
+    "duration_days": 6,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Beach resort stay",
+      "Daily breakfast",
+      "Phi Phi Islands tour",
+      "Grand Palace visit",
+      "Alcazar Show"
+    ],
+    "itinerary_summary": "Explore the vibrant streets of Bangkok and the pristine beaches of Phuket. Includes visits to Phi Phi Islands, the majestic Grand Palace, and the spectacular Alcazar Show.",
+    "hero_image": "/images/tours/international/thailand-beach.webp",
+    "whatsapp_message": "Hi, I'd like to book the Thailand Tour Package."
+  },
+  {
+    "slug": "singapore-tour-package",
+    "name": "Singapore Tour Package",
+    "category": "international",
+    "duration_days": 5,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Hotel stay",
+      "Daily breakfast",
+      "Gardens by the Bay",
+      "Universal Studios admission",
+      "Sentosa Island tour"
+    ],
+    "itinerary_summary": "Discover the Lion City's iconic attractions including Gardens by the Bay, Universal Studios excitement, and the endless entertainment at Sentosa Island.",
+    "hero_image": "/images/tours/international/singapore-city.webp",
+    "whatsapp_message": "Hi, I'd like to book the Singapore Tour Package."
+  },
+  {
+    "slug": "bali-tour-package",
+    "name": "Bali Tour Package",
+    "category": "international",
+    "duration_days": 6,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Villa/Resort stay",
+      "Daily breakfast",
+      "Ubud Rice Terraces",
+      "Nusa Penida exploration",
+      "Uluwatu Temple sunset"
+    ],
+    "itinerary_summary": "Immerse yourself in the Island of the Gods. Trek the serene Ubud Rice Terraces, explore untouched Nusa Penida, and witness breathtaking sunsets at Uluwatu Temple.",
+    "hero_image": "/images/tours/international/bali-temple.webp",
+    "whatsapp_message": "Hi, I'd like to book the Bali Tour Package."
+  },
+  {
+    "slug": "vietnam-tour-package",
+    "name": "Vietnam Tour Package",
+    "category": "international",
+    "duration_days": 6,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Hotel stay",
+      "Daily meals as per itinerary",
+      "Halong Bay Cruise",
+      "Hoi An ancient town walking tour",
+      "Cu Chi Tunnels history tour"
+    ],
+    "itinerary_summary": "Journey through rich history and stunning natural wonders. Sail through Halong Bay, stroll through the lantern-lit streets of Hoi An, and discover the historic Cu Chi Tunnels.",
+    "hero_image": "/images/tours/holidays/kashmir-valley-holiday.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Vietnam Tour Package."
+  },
+  {
+    "slug": "malaysia-tour-package",
+    "name": "Malaysia Tour Package",
+    "category": "international",
+    "duration_days": 4,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Hotel stay",
+      "Daily breakfast",
+      "Petronas Twin Towers visit",
+      "Batu Caves excursion",
+      "Genting Highlands cable car"
+    ],
+    "itinerary_summary": "Experience the vibrant heart of Southeast Asia with visits to the iconic Petronas Twin Towers, the majestic Batu Caves, and exciting Genting Highlands.",
+    "hero_image": "/images/tours/international/malaysia-city.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Malaysia Tour Package."
+  },
+  {
+    "slug": "maldives-tour-package",
+    "name": "Maldives Tour Package",
+    "category": "international",
+    "duration_days": 5,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights & Speedboat transfer",
+      "Premium Water Villa stay",
+      "All-inclusive dining",
+      "House reef snorkeling",
+      "Sunset cruising"
+    ],
+    "itinerary_summary": "Escape to paradise with an ultra-luxurious stay in a Premium Water Villa. Snorkel in breathtaking house reefs and enjoy romantic sunset cruising over the ocean.",
+    "hero_image": "/images/tours/international/maldives-luxury.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Maldives Tour Package."
+  },
+  {
+    "slug": "europe-tour-multi-country",
+    "name": "Europe Tour (Multi-Country)",
+    "category": "international",
+    "duration_days": 10,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights & Euro-rail",
+      "Hotel stay across cities",
+      "Breakfast & dinners",
+      "Paris Eiffel Tower tour",
+      "Swiss Alps excursion",
+      "Italian Renaissance art tours"
+    ],
+    "itinerary_summary": "A grand cross-continental journey covering the romance of the Paris Eiffel Tower, the majestic peaks of the Swiss Alps, and the timeless art of the Italian Renaissance.",
+    "hero_image": "/images/tours/international/europe-package.png",
+    "whatsapp_message": "Hi, I'd like to book the Europe Tour (Multi-Country) package."
+  },
+  {
+    "slug": "switzerland-tour-package",
+    "name": "Switzerland Tour Package",
+    "category": "international",
+    "duration_days": 7,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Swiss Chalet/Hotel stay",
+      "Daily breakfast",
+      "Glacier Express journey",
+      "Jungfraujoch ice palace",
+      "Lake Geneva cruising"
+    ],
+    "itinerary_summary": "Witness the alpine wonderland of Switzerland on the panoramic Glacier Express. Explore the spectacular Jungfraujoch ice palace and cruise tranquilly along Lake Geneva.",
+    "hero_image": "/images/tours/holidays/darjeeling-gangtok-himalayan-tour.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Switzerland Tour Package."
+  },
+  {
+    "slug": "japan-tour-package",
+    "name": "Japan Tour Package",
+    "category": "international",
+    "duration_days": 7,
+    "mode": "flight",
+    "inclusions": [
+      "Return flights",
+      "Hotel stay",
+      "Daily breakfast",
+      "Mount Fuji tour",
+      "Kyoto historic shrines",
+      "Tokyo bullet train rides"
+    ],
+    "itinerary_summary": "Discover the Land of the Rising Sun. Enjoy majestic Mount Fuji views, explore the tranquil historic shrines of Kyoto, and ride the famous Tokyo bullet trains.",
+    "hero_image": "/images/tours/international/japan-tour.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Japan Tour Package."
+  }
+]

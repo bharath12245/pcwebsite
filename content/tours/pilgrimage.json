@@ -1,10 +1,10 @@
 [
   {
     "slug": "char-dham-yatra-flight",
-    "name": "Char Dham Yatra — By Flight",
+    "name": "Char Dham Yatra",
     "category": "pilgrimage",
-    "duration_days": 9,
-    "mode": "flight",
+    "duration_days": 12,
+    "mode": "coach",
     "inclusions": [
       "Return flights",
       "Hotel stay",
@@ -14,14 +14,14 @@
     ],
     "itinerary_summary": "Experience the ultimate Himalayan pilgrimage to Yamunotri, Gangotri, Kedarnath, and Badrinath with seamless return flight transfers, comfortable hotel stays, and expert darshan guidance.",
     "hero_image": "/images/tours/pilgrimage/char-dham-yatra-flight.jpg",
-    "whatsapp_message": "Hi, I'd like to book the Char Dham Yatra — By Flight package."
+    "whatsapp_message": "Hi, I'd like to book the Char Dham Yatra package."
   },
   {
     "slug": "12-jyotirlinga-yatra-flight",
-    "name": "12 Jyotirlinga Yatra — By Flight",
+    "name": "9 Jyotirlinga Yatra",
     "category": "pilgrimage",
-    "duration_days": 12,
-    "mode": "flight",
+    "duration_days": 14,
+    "mode": "coach",
     "inclusions": [
       "Domestic flights across circuit cities",
       "Hotel stay",
@@ -29,16 +29,16 @@
       "Temple darshan assistance",
       "Dedicated tour manager"
     ],
-    "itinerary_summary": "A sacred pan-India pilgrimage covering all 12 Jyotirlingas, optimized with domestic flights for maximum comfort, spiritual devotion, and seamless logistics.",
+    "itinerary_summary": "A sacred pan-India pilgrimage covering all 9 Jyotirlingas, optimized with domestic flights for maximum comfort, spiritual devotion, and seamless logistics.",
     "hero_image": "/images/tours/pilgrimage/12-jyotirlinga-yatra-flight.png",
-    "whatsapp_message": "Hi, I'd like to book the 12 Jyotirlinga Yatra — By Flight package."
+    "whatsapp_message": "Hi, I'd like to book the 9 Jyotirlinga Yatra package."
   },
   {
     "slug": "vaishno-devi-amarnath-yatra",
     "name": "Vaishno Devi & Amarnath Yatra",
     "category": "pilgrimage",
     "duration_days": 7,
-    "mode": "flight",
+    "mode": "coach",
     "inclusions": [
       "Flights to Jammu",
       "Hotel stay",
@@ -55,7 +55,7 @@
     "name": "Kashi Vishwanath & Prayagraj Yatra",
     "category": "pilgrimage",
     "duration_days": 5,
-    "mode": "flight",
+    "mode": "coach",
     "inclusions": [
       "Return flights",
       "Hotel stay",
@@ -72,7 +72,7 @@
     "name": "Tirupati Balaji Darshan Special",
     "category": "pilgrimage",
     "duration_days": 3,
-    "mode": "flight",
+    "mode": "coach",
     "inclusions": [
       "Return flights",
       "Hotel stay",
@@ -89,7 +89,7 @@
     "name": "Rameswaram & Kanyakumari Yatra",
     "category": "pilgrimage",
     "duration_days": 6,
-    "mode": "flight",
+    "mode": "coach",
     "inclusions": [
       "Return flights",
       "Hotel stay",
@@ -106,7 +106,7 @@
     "name": "Shirdi Sai Baba Special",
     "category": "pilgrimage",
     "duration_days": 3,
-    "mode": "flight",
+    "mode": "coach",
     "inclusions": [
       "Return flights",
       "Hotel stay",
@@ -123,7 +123,7 @@
     "name": "Golden Temple & Wagah Border Yatra",
     "category": "pilgrimage",
     "duration_days": 5,
-    "mode": "flight",
+    "mode": "coach",
     "inclusions": [
       "Return flights",
       "Hotel stay",
@@ -140,7 +140,7 @@
     "name": "Ayodhya Ram Mandir Special",
     "category": "pilgrimage",
     "duration_days": 4,
-    "mode": "flight",
+    "mode": "coach",
     "inclusions": [
       "Return flights",
       "Hotel stay",
@@ -157,7 +157,7 @@
     "name": "Kedarnath & Badrinath Yatra",
     "category": "pilgrimage",
     "duration_days": 8,
-    "mode": "flight",
+    "mode": "coach",
     "inclusions": [
       "Flights to Dehradun",
       "Road transfers",
@@ -171,10 +171,10 @@
   },
   {
     "slug": "south-india-temple-circuit-train",
-    "name": "South India Temple Circuit — By Train",
+    "name": "South India Temple Circuit",
     "category": "pilgrimage",
     "duration_days": 10,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Confirmed train travel",
       "Hotel stay",
@@ -184,14 +184,14 @@
     ],
     "itinerary_summary": "A leisurely train pilgrimage visiting Madurai Meenakshi, Tanjore Big Temple, Srirangam, Rameswaram, and Chidambaram Nataraja temples.",
     "hero_image": "/images/tours/pilgrimage/south-india-temple-circuit-train.jpg",
-    "whatsapp_message": "Hi, I'd like to book the South India Temple Circuit — By Train package."
+    "whatsapp_message": "Hi, I'd like to book the South India Temple Circuit package."
   },
   {
     "slug": "karnataka-temple-yatra-train",
-    "name": "Karnataka Temple Yatra — By Train",
+    "name": "Karnataka Temple Yatra",
     "category": "pilgrimage",
     "duration_days": 5,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Train travel",
       "Hotel stay",
@@ -201,14 +201,14 @@
     ],
     "itinerary_summary": "Discover Karnataka's spiritual heritage covering Kukke Subramanya, Dharmasthala, Udupi Sri Krishna, Murudeshwara, and Gokarna Mahabaleshwar.",
     "hero_image": "/images/tours/pilgrimage/karnataka-temple-yatra-train.jpg",
-    "whatsapp_message": "Hi, I'd like to book the Karnataka Temple Yatra — By Train package."
+    "whatsapp_message": "Hi, I'd like to book the Karnataka Temple Yatra package."
   },
   {
     "slug": "navagraha-temple-yatra-train",
     "name": "Navagraha Temple Yatra",
     "category": "pilgrimage",
     "duration_days": 6,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Train travel",
       "Hotel/guesthouse stay",
@@ -217,15 +217,15 @@
       "Priest assistance & manager"
     ],
     "itinerary_summary": "A specialized 9-planetary temple pilgrimage around Kumbakonam in Tamil Nadu, designed for peace, astrological alignment, and sacred poojas.",
-    "hero_image": "/images/tours/pilgrimage/navagraha-temple-yatra-train.jpg",
+    "hero_image": "/images/tours/pilgrimage/navagraha-tour.png",
     "whatsapp_message": "Hi, I'd like to book the Navagraha Temple Yatra package."
   },
   {
     "slug": "shakti-peeth-yatra-train",
-    "name": "Shakti Peeth Yatra — By Train",
+    "name": "Shakti Peeth Yatra",
     "category": "pilgrimage",
     "duration_days": 14,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Train travel",
       "Hotel stay",
@@ -234,15 +234,15 @@
       "Tour manager support"
     ],
     "itinerary_summary": "A grand pilgrimage honoring the Divine Mother across major Shakti Peeths including Kamakhya, Kalighat, Tara Tarini, and Chamundeshwari.",
-    "hero_image": "/images/tours/pilgrimage/shakti-peeth-yatra-train.jpg",
-    "whatsapp_message": "Hi, I'd like to book the Shakti Peeth Yatra — By Train package."
+    "hero_image": "/images/tours/pilgrimage/shakti-peetha.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Shakti Peeth Yatra package."
   },
   {
     "slug": "divya-desam-yatra-train",
     "name": "Divya Desam Temple Yatra",
     "category": "pilgrimage",
     "duration_days": 13,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Train & coach travel",
       "Hotel stay",
@@ -251,7 +251,7 @@
       "Experienced tour manager"
     ],
     "itinerary_summary": "A soul-enriching yatra devoted to Lord Vishnu across key Divya Desams in South India, celebrated by the Alwar saints.",
-    "hero_image": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&w=1200&q=80",
+    "hero_image": "/images/tours/pilgrimage/divya-desam.png",
     "whatsapp_message": "Hi, I'd like to book the Divya Desam Temple Yatra package."
   },
   {
@@ -259,7 +259,7 @@
     "name": "Puri Jagannath & Konark Yatra",
     "category": "pilgrimage",
     "duration_days": 6,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Train travel",
       "Hotel stay",
@@ -276,7 +276,7 @@
     "name": "Ujjain Mahakaleshwar Special",
     "category": "pilgrimage",
     "duration_days": 4,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Train travel",
       "Hotel stay",
@@ -293,7 +293,7 @@
     "name": "Dwarka & Somnath Yatra",
     "category": "pilgrimage",
     "duration_days": 7,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Train travel",
       "Hotel stay",
@@ -310,7 +310,7 @@
     "name": "Kashi–Gaya–Ayodhya Circuit",
     "category": "pilgrimage",
     "duration_days": 8,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Train travel",
       "Hotel stay",
@@ -327,7 +327,7 @@
     "name": "Nashik Trimbakeshwar & Shirdi Yatra",
     "category": "pilgrimage",
     "duration_days": 5,
-    "mode": "train",
+    "mode": "coach",
     "inclusions": [
       "Train travel",
       "Hotel stay",
@@ -338,5 +338,69 @@
     "itinerary_summary": "A serene pilgrimage visiting Panchavati and Trimbakeshwar in Nashik followed by blissful darshan at Sai Baba's shrine in Shirdi.",
     "hero_image": "/images/tours/pilgrimage/nashik-trimbakeshwar-shirdi-train.jpg",
     "whatsapp_message": "Hi, I'd like to book the Nashik Trimbakeshwar & Shirdi Yatra package."
+  },
+  {
+    "slug": "kailash-mansarovar-yatra",
+    "name": "Kailash Mansarovar Yatra",
+    "category": "pilgrimage",
+    "duration_days": 14,
+    "mode": "coach",
+    "inclusions": [
+      "Accommodation",
+      "All meals",
+      "Permits & Visa",
+      "Tour manager support"
+    ],
+    "itinerary_summary": "Embark on the ultimate spiritual journey to the sacred Mount Kailash and the holy Mansarovar Lake.",
+    "hero_image": "/images/tours/pilgrimage/kailash-mansarovar.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Kailash Mansarovar Yatra package."
+  },
+  {
+    "slug": "adi-kailash-yatra",
+    "name": "Adi Kailash Yatra",
+    "category": "pilgrimage",
+    "duration_days": 8,
+    "mode": "coach",
+    "inclusions": [
+      "Accommodation",
+      "All meals",
+      "Permits",
+      "Tour manager support"
+    ],
+    "itinerary_summary": "Experience the divine presence of Chhota Kailash, surrounded by pristine Himalayan beauty in Uttarakhand.",
+    "hero_image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1200&h=800&fit=crop",
+    "whatsapp_message": "Hi, I'd like to book the Adi Kailash Yatra package."
+  },
+  {
+    "slug": "kamakhya-temple-tour",
+    "name": "Kamakhya Temple Tour",
+    "category": "pilgrimage",
+    "duration_days": 4,
+    "mode": "coach",
+    "inclusions": [
+      "Accommodation",
+      "All meals",
+      "Local sightseeing",
+      "Tour manager support"
+    ],
+    "itinerary_summary": "Visit the revered Kamakhya Temple in Guwahati, a major Shakti Peeth, and seek the blessings of the Mother Goddess.",
+    "hero_image": "/images/tours/pilgrimage/shakti-peetha.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Kamakhya Temple Tour package."
+  },
+  {
+    "slug": "navanadi-srisailam-yatra",
+    "name": "Navanadi - Srisailam (Andhra Pradesh) Yatra",
+    "category": "pilgrimage",
+    "duration_days": 5,
+    "mode": "coach",
+    "inclusions": [
+      "Accommodation",
+      "All meals",
+      "Local sightseeing",
+      "Tour manager support"
+    ],
+    "itinerary_summary": "A sacred journey exploring the Navanadi region and seeking blessings at the Mallikarjuna Jyotirlinga in Srisailam.",
+    "hero_image": "/images/tours/pilgrimage/srisailam-mallikarjun-temple.jpg",
+    "whatsapp_message": "Hi, I'd like to book the Navanadi - Srisailam (Andhra Pradesh) Yatra package."
   }
 ]
